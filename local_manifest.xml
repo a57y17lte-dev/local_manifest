@@ -1,17 +1,7 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
 <manifest>
  <!-- Remotes -->
-    <remote name="github"
-            fetch="https://github.com"
-            clone-depth="1" />
- <!--Tree -->
- <project path="device/samsung/a5y17lte" name="a5y17lte-experimentations/android_device_samsung_a5y17lte" remote="github" revision="lineage-21.0" />
-
- <!--Kernel -->
- <project path="kernel/samsung/universal7880" name="a5y17lte-experimentations/android_kernel_samsung_universal7880" remote="github" revision="lineage-21.0" />
- 
- 
- <!--Extras -->
- <!--<project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-19.1" /> -->
- 
+ <remote name="Kogan51999" fetch="https://github.com/Kogan51999/" />
+ <!-- Trees -->
+ <project path="device/samsung/a5y17lte" name="android_device_samsung_a5y17lte" remote="Kogan51999" revision="lineage-19.1" />
 </manifest>
