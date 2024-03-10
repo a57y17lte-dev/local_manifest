@@ -1,0 +1,12 @@
+$ ls .repo/local_manifests
+local_manifest.xml
+another_local_manifest.xml
+
+$ cat .repo/local_manifests/local_manifest.xml
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="manifest"
+           name="tools/manifest" />
+  <project path="platform-manifest"
+           name="platform/manifest" />
+</manifest>
