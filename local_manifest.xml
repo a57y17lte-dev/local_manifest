@@ -18,4 +18,38 @@
 	<project name="LineageOS/android_hardware_samsung_slsi_exynos7880" path="hardware/samsung_slsi/exynos7880" revision="lineage-18.1" />
 	<project name="LineageOS/android_hardware_samsung_slsi_exynos5" path="hardware/samsung_slsi/exynos5" revision="lineage-19.1" />
 	<project name="LineageOS/android_hardware_samsung_slsi_openmax" path="hardware/samsung_slsi/openmax" revision="lineage-19.1" />
+
+	<!-- legacy patches -->
+	<remove-project name="LineageOS/android_system_bpf" />
+	<project name="a57y17lte-dev/android_system_bpf" path="system/bpf" />
+
+	<remove-project name="LineageOS/android_system_netd" />
+	<project name="a57y17lte-dev/android_system_netd" path="system/netd" />
+
+	<remove-project name="LineageOS/android_packages_modules_adb" />
+	<project name="a57y17lte-dev/android_packages_modules_adb" path="packages/modules/adb" />
+
+	<remove-project name="LineageOS/android_packages_modules_Connectivity" />
+	<project name="a57y17lte-dev/android_packages_modules_Connectivity" path="packages/modules/Connectivity" />
+
+	<remove-project name="platform/packages/modules/NetworkStack" />
+	<project name="a57y17lte-dev/android_packages_modules_NetworkStack" path="packages/modules/NetworkStack" />
+
+	<remove-project name="platform/frameworks/libs/net" />
+	<project name="a57y17lte-dev/android_frameworks_libs_net" path="frameworks/libs/net" />
+
+	<remove-project name="LineageOS/android_system_core" />
+	<project name="a57y17lte-dev/android_system_core" path="system/core" />
+
+	<remove-project name="LineageOS/android_frameworks_base" />
+	<project name="a57y17lte-dev/android_frameworks_base" path="frameworks/base" />
+
+	<remove-project name="LineageOS/android_kernel_configs" />
+	<project name="a57y17lte-dev/android_kernel_configs" path="kernel/configs" />
+
+	<remove-project name="LineageOS/android_hardware_interfaces" />
+	<project name="a57y17lte-dev/android_hardware_interfaces" path="hardware/interfaces" />
+
+	<remove-project name="LineageOS/android_vendor_lineage" />
+	<project name="a57y17lte-dev/android_vendor_lineage" path="vendor/lineage" />
 </manifest>
