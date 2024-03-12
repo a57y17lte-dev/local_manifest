@@ -52,4 +52,10 @@
 
 	<remove-project name="LineageOS/android_vendor_lineage" />
 	<project name="a57y17lte-dev/android_vendor_lineage" path="vendor/lineage" />
+
+	<remove-project name="LineageOS/android_hardware_lineage_interfaces" />
+	<project name="a57y17lte-dev/android_hardware_lineage_interfaces" path="hardware/lineage/interfaces" />
+
+	<remove-project name="LineageOS/android_hardware_lineage_compat" />
+	<project name="a57y17lte-dev/android_hardware_lineage_compat" path="hardware/lineage/compat" />
 </manifest>
