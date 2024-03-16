@@ -26,7 +26,10 @@
   	</project>
 
 	<remove-project name="LineageOS/android_build_soong" />
-	<project name="a57y17lte-dev/android_build_soong" path="build/soong" />
+	<project name="a57y17lte-dev/android_build_soong" path="build/soong" >
+    		<linkfile src="root.bp" dest="Android.bp" />
+    		<linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  	</project>
 	
 	<remove-project name="LineageOS/android_system_bpf" />
 	<project name="a57y17lte-dev/android_system_bpf" path="system/bpf" />
