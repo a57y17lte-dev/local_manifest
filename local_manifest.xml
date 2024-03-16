@@ -25,6 +25,9 @@
 		<linkfile src="tools" dest="build/tools" />
   	</project>
 
+	<remove-project name="LineageOS/android_build_soong" />
+	<project name="a57y17lte-dev/android_build_soong" path="build/soong" />
+	
 	<remove-project name="LineageOS/android_system_bpf" />
 	<project name="a57y17lte-dev/android_system_bpf" path="system/bpf" />
 
