@@ -16,7 +16,7 @@
 
 	<!-- Clang -->
 	<remove-project name="platform/prebuilts/clang/host/linux-x86" />
-	<project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
+	<project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" remote="aosp" revision="4c6fbc28d3b078a5308894fc175f962bb26a5718" />
 	
 	<!-- legacy patches -->
 	<remove-project name="LineageOS/android_build" />
