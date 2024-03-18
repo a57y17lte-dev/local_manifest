@@ -14,10 +14,6 @@
 	<project name="LineageOS/android_hardware_samsung_slsi_exynos5" path="hardware/samsung_slsi/exynos5" revision="lineage-19.1" />
 	<project name="LineageOS/android_hardware_samsung_slsi_openmax" path="hardware/samsung_slsi/openmax" revision="lineage-19.1" />
 
-	<!-- Clang -->
-	<remove-project name="platform/prebuilts/clang/host/linux-x86" />
-	<project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" remote="aosp" revision="4c6fbc28d3b078a5308894fc175f962bb26a5718" />
-	
 	<!-- legacy patches -->
 	<remove-project name="LineageOS/android_build" />
   	<project path="build/make" name="a57y17lte-dev/android_build" >
@@ -73,5 +69,4 @@
 
 	<remove-project name="LineageOS/android_hardware_lineage_compat" />
 	<project name="a57y17lte-dev/android_hardware_lineage_compat" path="hardware/lineage/compat" />
-	
 </manifest>
