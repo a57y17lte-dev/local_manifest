@@ -46,7 +46,7 @@
 	<remove-project name="platform/packages/modules/NetworkStack" />
 	<project name="a57y17lte-dev/android_packages_modules_NetworkStack" path="packages/modules/NetworkStack" />
 
-	<remove-project name="platform/frameworks/libs/net" />
+	<!--<remove-project name="platform/frameworks/libs/net" />-->
 	<project name="a57y17lte-dev/android_frameworks_libs_net" path="frameworks/libs/net" />
 
 	<remove-project name="LineageOS/android_system_core" />
