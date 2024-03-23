@@ -1,20 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	<!-- Device repos -->
-	<project name="a57y17lte-dev/android_device_samsung_a7y17lte" path="device/samsung/a7y17lte" revision="lineage-20" />
-	<project name="a57y17lte-dev/android_device_samsung_a5y17lte" path="device/samsung/a5y17lte" revision="lineage-20" />
+	<project name="a57y17lte-dev/android_device_samsung_a7y17lte" path="device/samsung/a7y17lte" revision="lineage-18.1" />
+	<project name="a57y17lte-dev/android_device_samsung_a5y17lte" path="device/samsung/a5y17lte" revision="lineage-18.1" />
 	<project name="a57y17lte-dev/android_device_samsung_universal7880-common" path="device/samsung/universal7880-common" revision="lineage-20" />
 	<project name="filiprrs/android_kernel_samsung_universal7880" path="kernel/samsung/universal7880" revision="lineage-20" />
 	<project name="a57y17lte-dev/proprietary_vendor_samsung" path="vendor/samsung" revision="lineage-20" />
 
 	<!-- Dependencies -->
-	<project name="a57y17lte-dev/android_hardware_samsung" path="hardware/samsung" revision="lineage-20" />
+	<!--<project name="a57y17lte-dev/android_hardware_samsung" path="hardware/samsung" revision="lineage-20" />-->
 	<project name="a57y17lte-dev/android_hardware_samsung_slsi_exynos" path="hardware/samsung_slsi/exynos" revision="lineage-20" />
-	<project name="LineageOS/android_hardware_samsung_slsi_exynos7880" path="hardware/samsung_slsi/exynos7880" revision="lineage-18.1" />
+	<project name="LineageOS/android_hardware_samsung_slsi_exynos7880" path="hardware/samsung_slsi/exynos7880" revision="lineage-19.1" />
 	<project name="LineageOS/android_hardware_samsung_slsi_exynos5" path="hardware/samsung_slsi/exynos5" revision="lineage-19.1" />
 	<project name="LineageOS/android_hardware_samsung_slsi_openmax" path="hardware/samsung_slsi/openmax" revision="lineage-19.1" />
 
 	<!-- legacy patches -->
+	<project name="8890q/patches" path="~/patches" revision="lineage-20" />
+	
+	<remove-project name="LineageOS/android_vendor_lineage" />
+	<project name="a57y17lte-dev/android_vendor_lineage" path="vendor/lineage" />
+	
 	<remove-project name="LineageOS/android_build" />
   	<project path="build/make" name="a57y17lte-dev/android_build" >
 		<linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -56,17 +61,15 @@
 	<project name="a57y17lte-dev/android_frameworks_base" path="frameworks/base" />
 
 	<remove-project name="LineageOS/android_kernel_configs" />
-	<project name="a57y17lte-dev/android_kernel_configs" path="kernel/configs" />
+	<project name="a57y17lte-dev/android_kernel_configs" path="kernel/configs" /> -->
 
 	<remove-project name="LineageOS/android_hardware_interfaces" />
 	<project name="a57y17lte-dev/android_hardware_interfaces" path="hardware/interfaces" />
-
-	<remove-project name="LineageOS/android_vendor_lineage" />
-	<project name="a57y17lte-dev/android_vendor_lineage" path="vendor/lineage" />
 
 	<remove-project name="LineageOS/android_hardware_lineage_interfaces" />
 	<project name="a57y17lte-dev/android_hardware_lineage_interfaces" path="hardware/lineage/interfaces" />
 
 	<remove-project name="LineageOS/android_hardware_lineage_compat" />
 	<project name="a57y17lte-dev/android_hardware_lineage_compat" path="hardware/lineage/compat" />
+	
 </manifest>
