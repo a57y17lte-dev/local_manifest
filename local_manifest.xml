@@ -43,6 +43,9 @@
 	<remove-project name="LineageOS/android_packages_modules_Connectivity" />
 	<project name="a57y17lte-dev/android_packages_modules_Connectivity" path="packages/modules/Connectivity" />
 
+	<remove-project name="LineageOS-UL/android_system_apex" />
+	<project name="a57y17lte-dev/android_system_apex" path="system/apex" />
+		
 	<remove-project name="platform/packages/modules/NetworkStack" />
 	<project name="a57y17lte-dev/android_packages_modules_NetworkStack" path="packages/modules/NetworkStack" />
 
