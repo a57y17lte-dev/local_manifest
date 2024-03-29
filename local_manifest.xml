@@ -45,7 +45,10 @@
 
 	<remove-project name="LineageOS-UL/android_system_apex" />
 	<project name="a57y17lte-dev/android_system_apex" path="system/apex" />
-		
+
+	<remove-project name="LineageOS-UL/android_system_sepolicy" />
+	<project name="a57y17lte-dev/android_system_sepolicy" path="system/sepolicy" />
+	
 	<remove-project name="platform/packages/modules/NetworkStack" />
 	<project name="a57y17lte-dev/android_packages_modules_NetworkStack" path="packages/modules/NetworkStack" />
 
